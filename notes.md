@@ -20,6 +20,7 @@ Cat:
   * Angular ([GDI Angular](https://github.com/ahoef/gdi-angular))
 * Form validation
 * JS patterns
+* [Performance](https://browserdiet.com/en/#js)
 * Tools:
   * Build tools
   * Docs
