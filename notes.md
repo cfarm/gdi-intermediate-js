@@ -18,6 +18,7 @@ Cat:
   * React.js (learnyoureact)
   * Angular ([GDI Angular](https://github.com/ahoef/gdi-angular))
 * Form validation
+* [Quiz for pre-reqs](http://elitepeers.com/gdi/html5css3/quiz.html)
 
 Unassigned:
 * Canvas
