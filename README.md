@@ -7,16 +7,16 @@
 * Constructors
 
 
-## Lesson 2: Maintainable JavaScript
+## Lesson 2: AJAX
+
+## Lesson 3: jQuery
+
+## Lesson 4: Maintainable JavaScript
 
 * Code organization and ES6 Modules
 * Minification
 * Linters
 
-## Lesson 3: AJAX
-
-
-## Lesson 4: jQuery
 
 
 
@@ -34,7 +34,7 @@
 * Test Driven Development
 
 
-## Lesson 3
+## Lesson 3: 
 
 
-## Lesson 4
+## Lesson 4: MVC Frameworks
