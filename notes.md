@@ -19,6 +19,7 @@ Cat:
   * React.js (learnyoureact)
   * Angular ([GDI Angular](https://github.com/ahoef/gdi-angular))
 * Form validation
+* Animation
 * JS patterns
 * [Performance](https://browserdiet.com/en/#js)
 * Tools:

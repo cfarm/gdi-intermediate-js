@@ -12,11 +12,11 @@ credit http://slidedeck.io/kpcs/Intro-to-Object-Oriented-JavaScript
 ### Objects 
 
 ```
-var carObject = {
-        make: 'Volkswagen',
-        model: 'Rabbit',
-        drive: function() {
-            // Code that makes car go forward
+var kittenProduct = {
+        category: 'Cat Toys',
+        name: 'Catnip Jellyfish',
+        buy: function() {
+            // Code that adds product to shopping cart
         }
     };
 ```
@@ -41,13 +41,12 @@ Are there any attributes or methods that are unique to only one shape? ... to so
 You can create objects that know how to interact with your website.
 
 ```
-// Assuming Car as defined before
-Car.prototype.displayOnWebsite = function() {
-    var $carinfo = $('<p></p>');
-    $carinfo.text('You are buying a ' + this.model);
+KittenProduct.prototype.displayOnWebsite = function() {
+    var $productInfo = $('<p></p>');
+    $productInfo.text('You are buying a ' + this.name);
 
-    var $list = $('#listofcars');
-    $list.append($carinfo);
+    var $list = $('#product-list');
+    $list.append($productInfo);
 };
 ```
 
