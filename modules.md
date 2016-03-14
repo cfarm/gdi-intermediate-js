@@ -1,5 +1,7 @@
 # Modules
 
+@todo: use object oriented code examples for modules
+
 ECMAScript 2015 ("ES6") adds modules as a native feature to JavaScript, meaning we can organize our code into separate script files and the browser will automatically run them in the order we need.
 
 ## Define the problem
@@ -49,9 +51,9 @@ hideTooltip();
 
 It's getting pretty long! If we want to find and update the hideTooltip() function then we're slogging through lots of other features to do so. If we could split this file up by feature it'd be a lot easier to update and maintain:
 
-navMenu.js
-instantSearchResults.js
-tooltip.js
+- navMenu.js
+- instantSearchResults.js
+- tooltip.js
 
 but then we'd have to load 3 separate files in our index.html:
 
@@ -87,15 +89,14 @@ export hideNavMenu;
 
 COOL NOTES from https://leanpub.com/understandinges6/read#leanpub-auto-modules
 
-"
-1. Module code automatically runs in strict mode and there’s no way to opt-out of strict mode.
+> 1. Module code automatically runs in strict mode and there’s no way to opt-out of strict mode.
 2. Variables created in the top level of a module are not automatically added to the shared global scope. They exist only within the top-level scope of the module.
 3. The value of this in the top level of a module is undefined.
 4. Modules do not allow HTML-style comments within the code (a leftover feature from the early browser days).
 5. Modules must export anything that should be available to code outside of the module.
-"
 
-... "Any variables, functions, or classes that are not explicitly exported remain private to the module" 
+> Any variables, functions, or classes that are not explicitly exported remain private to the module
+
 we cannot call showNavMenu from other javascript files or our index.html page unless we explicitly export it.
 
 
