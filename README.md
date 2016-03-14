@@ -28,13 +28,13 @@ Day 2 will focus on best practices for coding maintainable, testable JavaScript 
 * Warm up exercises: Objects, events and 'this'
 * Classes and prototypal inheritance
 * Constructors
-* Review: Warm up exercises with forms
+* Warm up exercises with forms
 * Form Validation with HTML5 and JavaScript
 
 ## Lesson 2: Maintainable JavaScript
 
 * Test Driven Development
-* JS Assessment
+* JS Assessment: Arrays and Flow Control
 * Code organization and ES6 Modules
 * Performance: Minification and more
 

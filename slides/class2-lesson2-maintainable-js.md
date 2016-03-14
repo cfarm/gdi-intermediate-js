@@ -118,3 +118,46 @@ Because ES6 is still new and being implemented by browser makers, most modern br
 We have to use **transpilers** to convert our code from ES6 syntax to the previous version of JavaScript so that browsers can run our JS.
 
 >> How to goes here >>
+
+
+
+# Testing
+
+Unit tests
+examples
+run it!
+make it break!
+
+## Define the problem
+problem we're solving by using this concept
+
+## Example code
+explain it
+
+## Group Exercise
+
+Use your unit test template to make your first test (which should fail).
+
+Write the function to make the test pass.
+
+## JS Assessment Exercise
+
+Setup JS Assessment locally:
+
+1. In Terminal navigate to the `gdi-intermediate-js` folder
+2. Run `npm start`
+3. Go to http://localhost:4444/ in your browser
+4. Open 'app' folder inside our class files in Sublime Text.
+
+Write the following JS Assessment functions so that they pass their corresponding tests:
+
+1. arrays.js
+2. flowControl.js
+
+## Gotchas
+Browser Support, tricky things to keep in mind, etc.
+
+## Resources
+
+
+# Test-Driven Development

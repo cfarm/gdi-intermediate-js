@@ -1,6 +1,23 @@
 # Object-oriented JavaScript
 credit http://slidedeck.io/kpcs/Intro-to-Object-Oriented-JavaScript
 
+
+Review: objects, events, this
+
+## Goal: Understanding objects
+
+1. Create an object with multiple properties. For example, you could make a "student" object with the properties "name" and "hometown".
+2. Use console.log() to print out a sentence that includes the properties of that object. For example, "[name] is from [hometown]."
+
+
+## Goal: Understanding events and 'this'
+http://kpcs.github.io/Intro_OOJS/#/6
+
+1. In HTML, create a link to the website of your choice. 
+2. Using a JavaScript "onclick" event, make clicking on the link alert the link’s "href". 
+
+Hint: never used the "onclick" event before, and not sure how to use it? Check out w3schools.com for <a href="http://www.w3schools.com/jsref/event_onclick.asp">some documentation and examples</a>
+
 ## Uses for object-oriented programming
 
 - Model physical concepts more clearly in your code
@@ -50,4 +67,18 @@ KittenProduct.prototype.displayOnWebsite = function() {
 };
 ```
 
-## Resources
+
+# Forms
+
+## Warm up exercises
+
+### Goal: Understanding form events
+
+1. In our HTML, find the form markup for buying a cat toy.
+2. Using a JavaScript "submit" event, make submitting the form display the product name and price on the page. 
+
+Hint: Review <a href="http://cfarm.github.io/gdi-intro-js/class4.html#/10">the submit event</a> for documentation and examples
+
+
+## Form Validation
+
