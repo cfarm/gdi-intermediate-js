@@ -37,5 +37,3 @@ Day 2 will focus on best practices for coding maintainable, testable JavaScript 
 * JS Assessment: Arrays and Flow Control
 * Code organization and ES6 Modules
 * Performance: Minification and more
-
-## Lesson 3: MVC Frameworks

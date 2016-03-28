@@ -12,12 +12,12 @@
 
 ### Goal: Understanding arrays
 
-1. Create an array with a list of items in it. For example, you could make a "favoriteFoods" array made up of strings, or an "importantDates" list made up of numbers.
+1. Create an array with a list of items in it, using the [Codepen](http://codepen.io/pen/) website. For example, you could make a "favoriteFoods" array made up of strings, or an "importantDates" list made up of numbers.
 2. Use a for loop and console.log() to print out each item inside your array.
 
 ### Goal: Understanding objects
 
-1. Create an object with multiple properties. For example, you could make a "student" object with the properties "name" and "hometown".
+1. Create an object with multiple properties, using the [Codepen](http://codepen.io/pen/) website. For example, you could make a "student" object with the properties "name" and "hometown".
 2. Use console.log() to print out a sentence that includes the properties of that object. For example, "[name] is from [hometown]."
 
 
