@@ -142,17 +142,17 @@ Inheritance = Access to the properties and methods created by the parent object(
 
 ### Exercise: Creating objects
 
-Beginning with this [CodePen template], make the following changes to the Product constructor:
+Beginning with this [CodePen template](http://codepen.io/cfarm/pen/grxYqv?editors=0010), make the following changes to the Product constructor:
 
 1. Add arguments for name, category, and price
 1. Add properties for name, category, and price
 1. Create a method on the Product object called addToCart(). When that method is called, it should use console.log to output a string like "You added Kitten Mittens to your cart."
 1. Instantiate a new Product object and call the addToCart() method on it.
 1. Instantiate a second new Product object with different constructor arguments.
-
-1. Bonus: Make the addToCart() method print your message to the HTML on the page using [jQuery DOM manipulation](http://api.jquery.com/category/manipulation/) or native [JavaScript DOM insertion methods](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement).
-1. Bonus: Use an array of data and a for loop to instantiate 5 Product objects.
+1. Bonus: Make the addToCart() method print your message to the HTML on the page using [jQuery DOM manipulation](http://api.jquery.com/category/manipulation/) or [JavaScript's document.write() method](https://developer.mozilla.org/en-US/docs/Web/API/Document/write).
 1. Bonus: Make the addToCart() method accept a quantity to add to the shopping cart, and call it with different amounts.
+
+[View the solution](http://codepen.io/cfarm/pen/BKdBMV?editors=0010)
 
 
 ## Extending the Prototype with new methods
@@ -215,6 +215,7 @@ MusicVideo.constructor = MusicVideo;
 3. Add a method to MusicVideo called rockOut() that uses console.log to output a string like "You rocked out to La Bamba by Ritchie Valens!."
 
 4. Bonus: Use an array of data and a for loop to instantiate 5 MusicVideo objects.
+1. Bonus: Use an array of data and a for loop to instantiate 5 Product objects.
 5. Bonus: Make an array of video data with both normal videos and music videos, loop through them, and decide on each one whether to make it a Video or MusicVideo object.
 
 
