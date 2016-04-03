@@ -113,6 +113,31 @@ A build tool (for example Gulp, Grunt, and webpack) is used to compile your site
 
 ### Import & Export
 
+2 steps to write modules in CommonJS format:
+
+1. Make functions available to other modules with `module.exports`
+1. Require dependencies when you want to reuse code.
+
+
+```javascript
+function helloWorld() {
+    alert('Hello, world.')
+}
+
+module.exports = {
+    helloWorld: helloWorld
+}
+```
+
+### Calling code from the module
+
+Require dependencies when you want to reuse code:
+
+```javascript
+var helloWorld = require('./helloWorld.js');
+
+helloWorld();
+```
 
 
 ## Setup exercise files
@@ -177,7 +202,10 @@ Setup JS Assessment locally:
 Write the following JS Assessment functions so that they pass their corresponding tests:
 
 1. arrays.js
-2. flowControl.js
+1. flowControl.js
+1. objects.js
+1. async.js
+1. regex.js
 
 #### Exercise 9
 ## PetProduct Unit Test

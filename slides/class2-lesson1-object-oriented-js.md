@@ -540,8 +540,11 @@ performance
 
 # todos:
 
-* windows node setup?
+* Codepen exercise cleanup - make super simple.
+* combine js-assessment + modules package.json so we only run npm install once.
 * compress class2 folder and add link to class2.zip to slide1
 * update outline in slide 1 so it's accurate.
-]() look for empty links
-make notes in notebook for which exercises have a bonus slide
+* look for empty links by searching ]()
+* make notes in notebook for which exercises have a bonus slide
+* add survey link at end
+* add break slides at 30/50/60?
